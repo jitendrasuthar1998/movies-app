@@ -5,4 +5,5 @@
 3. Added website icon into public folder and then used it in index.html file
 4. Added TMDB token file into .env file
 5. Created one common function to call tmdb apis in api file inside utils folder
-6. Setup redux toolkit in our project
+6. Setup redux toolkit in app
+7. Setup routing in app
