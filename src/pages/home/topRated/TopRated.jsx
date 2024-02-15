@@ -4,10 +4,10 @@ import SwitchTabs from '../../../components/switchTabs/SwitchTabs';
 import useFetch from '../../../hooks/useFetch';
 import Carousel from '../../../components/carousel/Carousel';
 
-const Popular = () => {
+const TopRated = () => {
   const [mediaType, setMediaType] = useState('movie');
 
-  const { data, loading } = useFetch(`/${mediaType}/popular`);
+  const { data, loading } = useFetch(`/${mediaType}/top_rated`);
 
   const handleTabChange = (tab) => {
     if (tab === 'Movies') {
@@ -17,18 +17,20 @@ const Popular = () => {
     }
   };
 
+  //   console.log("timeWindow", mediaType);
+
   return (
     <div className='carouselSection'>
       <ContentWrapper>
-        <span className='carouselTitle'>What's Popular</span>
+        <span className='carouselTitle'>Top Rated</span>
         <SwitchTabs
           data={['Movies', 'TV Shows']}
           handleTabChange={handleTabChange}
         />
       </ContentWrapper>
-      <Carousel data={data?.results} loading={loading} endPoint={mediaType} />
+      <Carousel data={data?.results} loading={loading} endpoint={mediaType} />
     </div>
   );
 };
 
-export default Popular;
+export default TopRated;

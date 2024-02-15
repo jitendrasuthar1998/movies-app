@@ -1,10 +1,25 @@
-import React from 'react'
+import React from 'react';
 import './details.scss';
-
+import useFetch from '../../hooks/useFetch';
+import { useParams } from 'react-router-dom';
+import DetailsBanner from './detailsBanner/DetailsBanner';
+import Cast from './cast/Cast';
 const Details = () => {
-  return (
-    <div>Details</div>
-  )
-}
+  const { mediaType, id } = useParams();
 
-export default Details
+  console.log('mediaType', mediaType);
+  console.log('id', id);
+  const { data, loading } = useFetch(`/${mediaType}/${id}/videos`);
+  const { data: credits, loading: creditsLoading } = useFetch(
+    `/${mediaType}/${id}/credits`
+  );
+
+  return (
+    <div>
+      <DetailsBanner video={data?.results[0]} crew={credits?.crew} />
+      <Cast data={credits?.cast} loading={creditsLoading} />
+    </div>
+  );
+};
+
+export default Details;

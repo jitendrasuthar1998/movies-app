@@ -29,8 +29,8 @@ function App() {
 
         const url = {
           backdrop: res.images.secure_base_url + 'original',
-          poster: res.images.secure_base_url + 'w92',
-          profile: res.images.secure_base_url + 'w45',
+          poster: res.images.secure_base_url + 'w342',
+          profile: res.images.secure_base_url + 'w185',
         };
         // console.log('url at fetchDataFromApi == ', url);
         dispatch(getApiConfiguration(url));
