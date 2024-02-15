@@ -14,7 +14,7 @@ const useFetch = (url) => {
 
         fetchDataFromApi(url).then((res)=>{
             setLoading(false);
-            console.log("res from useFetch", res);
+            // console.log("res from useFetch", res);
             setData(res);
         }).catch((err)=>{
             setLoading(false);

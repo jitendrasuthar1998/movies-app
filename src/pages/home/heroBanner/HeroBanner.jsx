@@ -19,7 +19,7 @@ const HeroBanner = () => {
   useEffect(() => {
     const bg =
       url.backdrop +
-      data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
+      data?.results[0]?.backdrop_path
     setBackground(bg);
   }, [data]);
 
@@ -29,7 +29,7 @@ const HeroBanner = () => {
     }
   };
 
-  console.log("background", background)
+  // console.log("background", background)
 
   return (
     <div className='heroBanner'>
