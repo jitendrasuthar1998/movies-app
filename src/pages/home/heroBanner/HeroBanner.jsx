@@ -5,8 +5,7 @@ import { useSelector } from 'react-redux';
 import Img from '../../../components/lazyLoadImage/Img';
 
 import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
-import "./heroBanner.scss";
-
+import './heroBanner.scss';
 
 const HeroBanner = () => {
   const navigate = useNavigate();
@@ -17,9 +16,7 @@ const HeroBanner = () => {
   const { url } = useSelector((state) => state.home);
 
   useEffect(() => {
-    const bg =
-      url.backdrop +
-      data?.results[0]?.backdrop_path
+    const bg = url.backdrop + data?.results[0]?.backdrop_path;
     setBackground(bg);
   }, [data]);
 
@@ -30,7 +27,11 @@ const HeroBanner = () => {
   };
 
   // console.log("background", background)
-
+  const handleBtnSearch = () => {
+    if(query.length > 0) {
+      navigate(`/search/${query}`);
+    }
+  }
   return (
     <div className='heroBanner'>
       {!loading && (
@@ -38,7 +39,7 @@ const HeroBanner = () => {
           <Img src={background} />
         </div>
       )}
-      <div className="opacity-layer"></div>
+      <div className='opacity-layer'></div>
       <ContentWrapper>
         <div className='heroBannerContent'>
           <span className='title'>Welcome</span>
@@ -53,7 +54,7 @@ const HeroBanner = () => {
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={handleSearch}
             />
-            <button>Search</button>
+            <button onClick={() => handleBtnSearch()}>Search</button>
           </div>
         </div>
       </ContentWrapper>

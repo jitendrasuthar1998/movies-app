@@ -17,8 +17,6 @@ const TopRated = () => {
     }
   };
 
-  //   console.log("timeWindow", mediaType);
-
   return (
     <div className='carouselSection'>
       <ContentWrapper>
@@ -28,7 +26,7 @@ const TopRated = () => {
           handleTabChange={handleTabChange}
         />
       </ContentWrapper>
-      <Carousel data={data?.results} loading={loading} endpoint={mediaType} />
+      <Carousel data={data?.results} loading={loading} endPoint={mediaType} />
     </div>
   );
 };
