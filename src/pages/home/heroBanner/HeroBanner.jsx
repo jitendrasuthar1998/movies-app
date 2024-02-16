@@ -33,7 +33,7 @@ const HeroBanner = () => {
     }
   }
   return (
-    <div className='heroBanner'>
+    <section className='heroBanner'>
       {!loading && (
         <div className='backdrop-img'>
           <Img src={background} />
@@ -58,7 +58,7 @@ const HeroBanner = () => {
           </div>
         </div>
       </ContentWrapper>
-    </div>
+    </section>
   );
 };
 

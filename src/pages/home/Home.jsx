@@ -7,12 +7,12 @@ import TopRated from './topRated/TopRated';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <HeroBanner/>
       <Trending/>
       <Popular/>
       <TopRated/>
-    </div>
+    </>
   )
 }
 

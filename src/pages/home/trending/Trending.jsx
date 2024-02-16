@@ -17,13 +17,13 @@ const Trending = () => {
   // console.log("timeWindow", timeWindow);
 
   return (
-    <div className='carouselSection'>
+    <section className='carouselSection' data-testid="trendingSection">
       <ContentWrapper>
         <span className='carouselTitle'>Trending</span>
         <SwitchTabs data={['Day', 'Week']} handleTabChange={handleTabChange} />
       </ContentWrapper>
       <Carousel data={data?.results} loading={loading}/>
-    </div>
+    </section>
   );
 };
 

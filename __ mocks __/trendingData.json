@@ -1,0 +1,414 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/uUiIGztTrfDhPdAFJpr6m4UBMAd.jpg",
+            "id": 634492,
+            "title": "Madame Web",
+            "original_language": "en",
+            "original_title": "Madame Web",
+            "overview": "Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present.",
+            "poster_path": "/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                28,
+                12
+            ],
+            "popularity": 794.984,
+            "release_date": "2024-02-14",
+            "video": false,
+            "vote_average": 5.711,
+            "vote_count": 95
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4l65BWqJBl7hBwdIwp2nQdwsOuw.jpg",
+            "id": 850165,
+            "title": "The Iron Claw",
+            "original_language": "en",
+            "original_title": "The Iron Claw",
+            "overview": "The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s. Through tragedy and triumph, under the shadow of their domineering father and coach, the brothers seek larger-than-life immortality on the biggest stage in sports.",
+            "poster_path": "/nfs7DCYhgrEIgxKYbITHTzKsggf.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 145.197,
+            "release_date": "2023-12-21",
+            "video": false,
+            "vote_average": 7.535,
+            "vote_count": 186
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zW0v2YT74C6tRafzqqBkfSqLAN0.jpg",
+            "id": 52814,
+            "name": "Halo",
+            "original_language": "en",
+            "original_name": "Halo",
+            "overview": "Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply drawn personal stories with action, adventure and a richly imagined vision of the future.",
+            "poster_path": "/hmHA5jqxN3ESIAGx0jAwV7TJhTQ.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                10765
+            ],
+            "popularity": 2921.618,
+            "first_air_date": "2022-03-24",
+            "vote_average": 8.305,
+            "vote_count": 2163,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nOI4Pv6LGpxEdvwRAHJR8aIcbgf.jpg",
+            "id": 210098,
+            "name": "House of Ninjas",
+            "original_language": "ja",
+            "original_name": "忍びの家 House of Ninjas",
+            "overview": "Years after retiring from their formidable ninja lives, a dysfunctional family must return to shadowy missions to counteract a string of looming threats.",
+            "poster_path": "/5MWHYRYQ9DEKA5pAkhnniqPdJrr.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759
+            ],
+            "popularity": 111.882,
+            "first_air_date": "2024-02-15",
+            "vote_average": 7.0,
+            "vote_count": 5,
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sDrYaCGIaTcXZvns04LjTtju0Vp.jpg",
+            "id": 1231953,
+            "title": "Five Blind Dates",
+            "original_language": "en",
+            "original_title": "Five Blind Dates",
+            "overview": "More focused on her business than finding love, Lia is forced to go on five blind dates set up by her family and best friend after she is told by a fortune teller that her love life and the success of her tea shop are intertwined.",
+            "poster_path": "/msTE1EAg8COupvuupSoB0IXYx4J.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "popularity": 113.162,
+            "release_date": "2024-02-12",
+            "video": false,
+            "vote_average": 5.6,
+            "vote_count": 10
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dszp4oUc3JrkgmDFQin4rNNDbms.jpg",
+            "id": 157368,
+            "name": "The New Look",
+            "original_language": "en",
+            "original_name": "The New Look",
+            "overview": "The shocking story of how fashion icon Christian Dior and his contemporaries including Coco Chanel, Pierre Balmain, and Cristóbal Balenciaga navigated the horrors of World War Il and launched modern fashion.",
+            "poster_path": "/aQBpF8VmEIgow41OL9h4nU4WN6v.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 183.544,
+            "first_air_date": "2024-02-13",
+            "vote_average": 9.667,
+            "vote_count": 6,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1h3CeWpt9WgUPBe06jQoaEkHLKG.jpg",
+            "id": 1217343,
+            "title": "This Is Me…Now",
+            "original_language": "en",
+            "original_title": "This Is Me…Now",
+            "overview": "An intimate, fantastical and narrative-driven reflection of Jennifer Lopez's journey of self-healing and self-love in an immersive world where music and visuals intertwine, revealing the challenges faced and the triumphs achieved.",
+            "poster_path": "/nEMSjYpT0B7uxNwu1kEU8fTycs4.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                10402
+            ],
+            "popularity": 45.085,
+            "release_date": "2024-02-15",
+            "video": false,
+            "vote_average": 5.7,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8GnWDLn2AhnmkQ7hlQ9NJUYobSS.jpg",
+            "id": 695721,
+            "title": "The Hunger Games: The Ballad of Songbirds \u0026 Snakes",
+            "original_language": "en",
+            "original_title": "The Hunger Games: The Ballad of Songbirds \u0026 Snakes",
+            "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+            "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                878,
+                28
+            ],
+            "popularity": 671.696,
+            "release_date": "2023-11-15",
+            "video": false,
+            "vote_average": 7.208,
+            "vote_count": 1748
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uhUO7vQQKvCTfQWubOt5MAKokbL.jpg",
+            "id": 693134,
+            "title": "Dune: Part Two",
+            "original_language": "en",
+            "original_title": "Dune: Part Two",
+            "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+            "poster_path": "/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                12
+            ],
+            "popularity": 224.818,
+            "release_date": "2024-02-27",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/criPrxkTggCra1jch49jsiSeXo1.jpg",
+            "id": 609681,
+            "title": "The Marvels",
+            "original_language": "en",
+            "original_title": "The Marvels",
+            "overview": "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
+            "poster_path": "/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                12,
+                28
+            ],
+            "popularity": 1039.405,
+            "release_date": "2023-11-08",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 1687
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1ZSKH5GGFlM8M32K34GMdaNS2Ew.jpg",
+            "id": 802219,
+            "title": "Bob Marley: One Love",
+            "original_language": "en",
+            "original_title": "Bob Marley: One Love",
+            "overview": "Jamaican singer-songwriter Bob Marley overcomes adversity to become the most famous reggae musician in the world.",
+            "poster_path": "/1lQftpEARVVB9op4TaYiIbactzG.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                10402,
+                18
+            ],
+            "popularity": 330.498,
+            "release_date": "2024-02-14",
+            "video": false,
+            "vote_average": 6.838,
+            "vote_count": 34
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nTPFkLUARmo1bYHfkfdNpRKgEOs.jpg",
+            "id": 1072790,
+            "title": "Anyone But You",
+            "original_language": "en",
+            "original_title": "Anyone But You",
+            "overview": "After an amazing first date, Bea and Ben’s fiery attraction turns ice cold — until they find themselves unexpectedly reunited at a destination wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
+            "poster_path": "/yRt7MGBElkLQOYRvLTT1b3B1rcp.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "popularity": 636.132,
+            "release_date": "2023-12-21",
+            "video": false,
+            "vote_average": 6.956,
+            "vote_count": 421
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/wQotaner8FU5SBnYvyFJADPGlzS.jpg",
+            "id": 1232943,
+            "title": "Kill Me If You Dare",
+            "original_language": "pl",
+            "original_title": "Zabij mnie, kochanie",
+            "overview": "A winning lottery ticket has grave consequences for a married couple when they start hatching plans to kill each other for the prize money.",
+            "poster_path": "/ajGJmcLNgFNTHN2IkOwoQDHqXv0.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "popularity": 81.701,
+            "release_date": "2024-02-13",
+            "video": false,
+            "vote_average": 5.1,
+            "vote_count": 9
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/u0P5drNyTrZoGyJONPcZGbv1mNP.jpg",
+            "id": 1124127,
+            "title": "Air Force One Down",
+            "original_language": "en",
+            "original_title": "Air Force One Down",
+            "overview": "On her first assignment aboard Air Force One, a rookie Secret Service agent faces the ultimate test when terrorists hijack the plane, intent on derailing a pivotal energy deal. With the President's life on the line and a global crisis at stake, her bravery and skills are pushed to the limit in a relentless battle that could change the course of history.",
+            "poster_path": "/nKPoSD4pZ3s3CJ9g3cqWRcQ41TC.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "popularity": 28.274,
+            "release_date": "2024-02-09",
+            "video": false,
+            "vote_average": 5.846,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pRmF6VBsRnvWCbLB9P80UvZFMyK.jpg",
+            "id": 1014590,
+            "title": "Upgraded",
+            "original_language": "en",
+            "original_title": "Upgraded",
+            "overview": "Ana is an ambitious intern dreaming of a career in the art world while trying to impress her demanding boss Claire. When she's upgraded to first class on a work trip, she meets handsome Will, who mistakes Ana for her boss– a white lie that sets off a glamorous chain of events, romance and opportunity, until her fib threatens to surface.",
+            "poster_path": "/9xn7y63VIpUsIVzSP9fYrqJHyl9.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                10749,
+                35
+            ],
+            "popularity": 495.915,
+            "release_date": "2024-02-07",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 227
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/yyFc8Iclt2jxPmLztbP617xXllT.jpg",
+            "id": 787699,
+            "title": "Wonka",
+            "original_language": "en",
+            "original_title": "Wonka",
+            "overview": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
+            "poster_path": "/qhb1qOilapbapxWQn9jtRCMwXJF.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                35,
+                10751,
+                14
+            ],
+            "popularity": 1060.652,
+            "release_date": "2023-12-06",
+            "video": false,
+            "vote_average": 7.2,
+            "vote_count": 2121
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4MCKNAc6AbWjEsM2h9Xc29owo4z.jpg",
+            "id": 866398,
+            "title": "The Beekeeper",
+            "original_language": "en",
+            "original_title": "The Beekeeper",
+            "overview": "One man’s campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+            "poster_path": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53,
+                18
+            ],
+            "popularity": 765.421,
+            "release_date": "2024-01-10",
+            "video": false,
+            "vote_average": 7.251,
+            "vote_count": 1136
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7ttADfhS0zpmcEG38peQm3csBse.jpg",
+            "id": 1173076,
+            "title": "Johnny Keep Walking!",
+            "original_language": "zh",
+            "original_title": "年会不能停！",
+            "overview": "Fitter Hu Jianlin was transferred to the headquarters by accident when the group was laying off employees. He is full of jokes because he is incompatible with the environment of the big factory. Human resources manager Ma Jie, who was caught up in the \"wrong adjustment\" incident, was forced to go around hiding it in order to keep his job. Is he able to keep his job after this mistake?",
+            "poster_path": "/8055dyA5XJbEcN9JjECZ1WsR62o.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "popularity": 23.51,
+            "release_date": "2023-12-29",
+            "video": false,
+            "vote_average": 7.609,
+            "vote_count": 23
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nhhsKLA46CUa7kXwXgamaDYZ1mA.jpg",
+            "id": 1216268,
+            "title": "The Heartbreak Agency",
+            "original_language": "de",
+            "original_title": "Die Liebeskümmerer",
+            "overview": "When a skeptical journalist reluctantly participates in heartbreak therapy for an article, he ends up opening his heart to his charming therapist.",
+            "poster_path": "/zkLo1lMjqloUqhnAji4YbnSH2vb.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "popularity": 53.176,
+            "release_date": "2024-02-13",
+            "video": false,
+            "vote_average": 5.0,
+            "vote_count": 5
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/j64H7GlYSarltRHJOl75jxLTRV6.jpg",
+            "id": 1026436,
+            "title": "Miller's Girl",
+            "original_language": "en",
+            "original_title": "Miller's Girl",
+            "overview": "A precocious young writer becomes involved with her high school creative writing teacher in a dark coming-of-age drama that examines the blurred lines of emotional connectivity between professor and protégé.",
+            "poster_path": "/aygFQeDmmtlArzo8epmsOg9mz9f.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "popularity": 67.816,
+            "release_date": "2024-01-18",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 22
+        }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+}

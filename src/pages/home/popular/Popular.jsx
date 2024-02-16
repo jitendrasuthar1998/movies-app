@@ -18,7 +18,7 @@ const Popular = () => {
   };
 
   return (
-    <div className='carouselSection'>
+    <section className='carouselSection'>
       <ContentWrapper>
         <span className='carouselTitle'>What's Popular</span>
         <SwitchTabs
@@ -27,7 +27,7 @@ const Popular = () => {
         />
       </ContentWrapper>
       <Carousel data={data?.results} loading={loading} endPoint={mediaType} />
-    </div>
+    </section>
   );
 };
 

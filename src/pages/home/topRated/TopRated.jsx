@@ -18,7 +18,7 @@ const TopRated = () => {
   };
 
   return (
-    <div className='carouselSection'>
+    <section className='carouselSection'>
       <ContentWrapper>
         <span className='carouselTitle'>Top Rated</span>
         <SwitchTabs
@@ -27,7 +27,7 @@ const TopRated = () => {
         />
       </ContentWrapper>
       <Carousel data={data?.results} loading={loading} endPoint={mediaType} />
-    </div>
+    </section>
   );
 };
 
