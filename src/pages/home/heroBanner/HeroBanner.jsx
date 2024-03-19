@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+
+import './heroBanner.scss';
 import useFetch from '../../../hooks/useFetch';
 import { useSelector } from 'react-redux';
 import Img from '../../../components/lazyLoadImage/Img';
-
 import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
-import './heroBanner.scss';
 
 const HeroBanner = () => {
   const navigate = useNavigate();
@@ -26,14 +26,13 @@ const HeroBanner = () => {
     }
   };
 
-  // console.log("background", background)
   const handleBtnSearch = () => {
     if(query.length > 0) {
       navigate(`/search/${query}`);
     }
   }
   return (
-    <section className='heroBanner'>
+    <section className='heroBanner' data-testid="banner">
       {!loading && (
         <div className='backdrop-img'>
           <Img src={background} />
@@ -42,7 +41,7 @@ const HeroBanner = () => {
       <div className='opacity-layer'></div>
       <ContentWrapper>
         <div className='heroBannerContent'>
-          <span className='title'>Welcome</span>
+          <span className='title' data-testid="welcomeText">Welcome</span>
           <span className='subTitle'>
             Millions of movies, Tv shows and people to discover. Explore now
           </span>

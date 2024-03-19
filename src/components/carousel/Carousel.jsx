@@ -79,6 +79,7 @@ const Carousel = ({title, data, loading, endPoint }) => {
                 <div
                   key={item.id}
                   className='carouselItem'
+                  data-testid="carouselItem"
                   onClick={() =>
                     navigate(`/${item.media_type || endPoint}/${item.id}`)
                   }

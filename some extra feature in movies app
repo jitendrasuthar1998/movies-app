@@ -1,0 +1,16 @@
+I want to add a feature by which user can select his favorite movie.
+
+For that, i will have to save some movie related data.
+
+1. movie id
+2. movie name
+
+in redux, i will have to create a movies slice.
+
+movies slice initialState will be an empty array.
+
+when user clicks on heart icon on any movie, that time pass that movie id and name to redux store, and save it as movie object in movies array.
+
+after saving movie object data into movies array, get all movies list from favorite and check if the current movie is favorite movie or not.
+
+if it is favorite movie, that time height list heart icon.

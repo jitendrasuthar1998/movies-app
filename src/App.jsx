@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import './App.css';
 import { fetchDataFromApi } from './utils/api';
-import { useDispatch, useSelector } from 'react-redux';
 import { getApiConfiguration, getGenres } from './redux/slices/homeSlice';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
@@ -10,11 +12,9 @@ import Details from './pages/details/Details';
 import SearchResult from './pages/searchResult/SearchResult';
 import Explore from './pages/explore/Explore';
 import PageNotFound from './pages/404/PageNotFound';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
-  const url = useSelector((state) => state.home.url);
-  // console.log('url from redux store', url);
+  
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -22,17 +22,15 @@ function App() {
     generesCall();
   }, []);
 
+  // function to call api to get configuration details
   const fetchApiConfig = () => {
     fetchDataFromApi('/configuration')
       .then((res) => {
-        // console.log('res', res);
-
         const url = {
           backdrop: res.images.secure_base_url + 'original',
           poster: res.images.secure_base_url + 'w342',
           profile: res.images.secure_base_url + 'w185',
         };
-        // console.log('url at fetchDataFromApi == ', url);
         dispatch(getApiConfiguration(url));
       })
       .catch((err) => {
@@ -40,6 +38,7 @@ function App() {
       });
   };
 
+  // function to call api to get all genres data
   const generesCall = async () => {
     let promises = [];
     let endPoints = ['tv', 'movie'];

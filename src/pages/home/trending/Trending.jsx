@@ -9,7 +9,7 @@ const Trending = () => {
   const [timeWindow, setTimeWindow] = useState("day");
 
   const {data, loading} = useFetch(`/trending/all/${timeWindow}`)
-
+  console.log("data at Trending is == ", data);
   const handleTabChange = (tab) => {
     setTimeWindow(tab.toLowerCase());
   };
