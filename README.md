@@ -71,6 +71,8 @@ This is a **beautiful Movie application** built using **React** that allows user
 
 - **React**: For building the user interface.
 - **TMDB API**: To fetch movies and TV shows data.
+- **Axios**: For making HTTP requests to the API.
+- **Day.js**: To handle and format dates.
 - **react-icons**: For icons throughout the app.
 - **react-circular-progressbar**: For displaying progress bars (e.g., ratings).
 - **react-lazy-load-image-component**: For lazy loading images, improving performance.
